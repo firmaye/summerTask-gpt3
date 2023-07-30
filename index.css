@@ -122,6 +122,7 @@ h2 {
   background: linear-gradient(103.22deg, #042c54 -13.86%, #174180);
   margin: 0px 70px;
   padding: 20px;
+  padding-top: 20px;
 }
 .part {
   display: flex;
@@ -155,6 +156,7 @@ h2 {
   font-size: 200%;
 }
 .par {
+  padding: 20px 0;
   color: #f94a23;
 }
 .part div {
@@ -190,4 +192,43 @@ h2 {
 }
 .studies div {
   width: 60%;
+}
+.possibilities {
+  margin: 100px 70px;
+  display: flex;
+}
+.poss_img img {
+  width: 600px;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.txt h1 {
+  width: 100%;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 17px;
+  padding: 30px;
+  margin: 100px 70px;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+}
+.center h2 {
+  color: #040c18;
+}
+.center p {
+  color: #040c18;
+  font-family: "Courier New", Courier, monospace;
+}
+.center button {
+  background: #040c18;
+  color: aliceblue;
+  border-radius: 26px;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
 }
