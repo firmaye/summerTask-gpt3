@@ -232,3 +232,17 @@ h2 {
   font-weight: bold;
   font-size: large;
 }
+.parag {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 80px;
+}
+.parag h1 {
+  color: aliceblue;
+  font-size: 350%;
+  width: 90%;
+  color: #ff8a71;
+  padding-left: 40px;
+}
