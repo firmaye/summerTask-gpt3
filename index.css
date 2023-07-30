@@ -20,6 +20,10 @@ p {
   line-height: 20px;
   color: #81afdd;
 }
+h2 {
+  color: aliceblue;
+  line-height: 40px;
+}
 .header_container {
   background: linear-gradient(103.22deg, #042c54 -13.86%, #040c18);
   padding: 0px 70px;
@@ -144,15 +148,46 @@ p {
   height: 2px;
   width: 50px;
 }
-.part .heading {
+.heading {
   color: #ff8a71;
   width: 50%;
   line-height: 50px;
-  font-size: 250%;
+  font-size: 200%;
 }
 .par {
   color: #f94a23;
 }
 .part div {
   margin-right: 30px;
+}
+.case_studies_container {
+  display: flex;
+  margin: 100px 70px;
+}
+.case_studies {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-self: flex-start;
+  padding-left: 50px;
+}
+.main_heading .heading {
+  width: 100%;
+}
+.studies {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.studies h2 {
+  font-size: larger;
+}
+.studies p {
+  width: 100%;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.studies div {
+  width: 60%;
 }
