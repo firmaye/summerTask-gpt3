@@ -16,6 +16,10 @@ li {
   padding: 20px;
   font-size: larger;
 }
+p {
+  line-height: 20px;
+  color: #81afdd;
+}
 .header_container {
   background: linear-gradient(103.22deg, #042c54 -13.86%, #040c18);
   padding: 0px 70px;
@@ -106,4 +110,49 @@ li {
   display: flex;
   justify-content: space-around;
   margin: 70px;
+}
+.what_container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background: linear-gradient(103.22deg, #042c54 -13.86%, #174180);
+  margin: 0px 70px;
+  padding: 20px;
+}
+.part {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-bottom: 60px;
+}
+.part p {
+  /* padding-left: 40px; */
+  justify-self: flex-end;
+}
+.what {
+  align-self: flex-start;
+  margin-right: 30px;
+  width: 40%;
+}
+.what_container h2 {
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+.line {
+  margin: 10px 0;
+  background: #ff8a71;
+  height: 2px;
+  width: 50px;
+}
+.part .heading {
+  color: #ff8a71;
+  width: 50%;
+  line-height: 50px;
+  font-size: 250%;
+}
+.par {
+  color: #f94a23;
+}
+.part div {
+  margin-right: 30px;
 }
