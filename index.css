@@ -34,6 +34,9 @@ h2 {
   align-content: center;
   padding: 40px 0;
 }
+.container {
+  margin: 0px 70px;
+}
 .lists {
   display: flex;
   justify-content: space-between;
@@ -47,6 +50,7 @@ h2 {
 .font_container {
   display: flex;
   margin-top: 50px;
+  padding-bottom: 40px;
 }
 
 .buttons {
@@ -113,14 +117,15 @@ h2 {
 .partners {
   display: flex;
   justify-content: space-around;
-  margin: 70px;
+  margin: 70px 0;
+  flex-wrap: wrap;
 }
 .what_container {
   display: flex;
   flex-direction: column;
   align-content: space-between;
   background: linear-gradient(103.22deg, #042c54 -13.86%, #174180);
-  margin: 0px 70px;
+
   padding: 20px;
   padding-top: 20px;
 }
@@ -149,9 +154,12 @@ h2 {
   height: 2px;
   width: 50px;
 }
+.part .heading {
+  width: 50%;
+}
 .heading {
   color: #ff8a71;
-  width: 50%;
+
   line-height: 50px;
   font-size: 200%;
 }
@@ -164,7 +172,7 @@ h2 {
 }
 .case_studies_container {
   display: flex;
-  margin: 100px 70px;
+  margin: 100px 0px;
 }
 .case_studies {
   display: flex;
@@ -194,7 +202,7 @@ h2 {
   width: 60%;
 }
 .possibilities {
-  margin: 100px 70px;
+  margin: 100px 0px;
   display: flex;
 }
 .poss_img img {
@@ -213,7 +221,7 @@ h2 {
   justify-content: space-between;
   border-radius: 17px;
   padding: 30px;
-  margin: 100px 70px;
+  margin: 100px 0px;
   background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 }
 .center h2 {
@@ -233,23 +241,173 @@ h2 {
   font-size: large;
 }
 .parag {
-  margin-left: 50px;
   display: flex;
-  justify-content: center;
+
   align-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .parag h1 {
   color: aliceblue;
   font-size: 350%;
   width: 90%;
   color: #ff8a71;
-  padding-left: 40px;
 }
 .blog {
   display: grid;
   grid-column: 6;
 }
+.gpt3__blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.gpt3__blog-container {
+  display: flex;
+  flex-direction: row;
+}
+.gpt3__blog-container_groupA {
+  flex: 0.75;
+  margin-right: 2rem;
+}
+.gpt3__blog-container_groupB {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.gpt3__blog-container_article {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  background: #042c54;
+}
+.gpt3__blog-container_article-image {
+  width: 100%;
+  height: 100%;
+  background: #042c54;
+}
+.gpt3__blog-container_article-image img {
+  width: 100%;
+  height: 100%;
+}
+.gpt3__blog-container_atricle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  height: 100%;
+}
+.gpt3__blog-container_atricle-container p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 11;
+  line-height: 35px;
+  color: #ffffff;
+}
+.gpt3__blog-container_atricle-container h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+.gpt3__blog-container_atricle-container p:last-child {
+  cursor: pointer;
+}
+
+.gpt3 {
+  margin-top: 100px;
+  background: #042c54;
+  color: #ffffff;
+}
+.gpt3__container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.gpt3__container-heading {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gpt3__container-heading h3 {
+  color: #f49867;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: -0.1rem;
+}
+.gpt3__container-heading p {
+  padding: 15px;
+  font-size: 10px;
+  margin-top: 25px;
+  border: 1px solid #f3eeeb;
+}
+.gpt3__container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.gpt3__container-footer-gpt3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.gpt3__container-footer h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-family: var(--font-family);
+}
+.gpt3__container-footer p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-family: var(--font-family);
+  width: 60%;
+}
+.gpt3__container-footer-content ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
+  list-style: none;
+}
+.gpt3__container-footer-content ul li {
+  font-family: var(--font-family);
+}
+.gpt3__container-footer-content ul li ol {
+  font-family: var(--font-family);
+  font-size: 12px;
+  list-style: none;
+  margin-top: 5px;
+}
+.gpt3__container-footer-content ul li ol:first-child {
+  margin-top: 10px;
+}
+.gpt3__container-content-footer {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 568px) {
+  .gpt3__container-heading h3 {
+    font-size: 30px;
+  }
+  .gpt3__container-footer {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .gpt3__container-footer-gpt3 {
+    margin-top: 20px;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .image img {
     width: 400px;
@@ -280,8 +438,42 @@ h2 {
     width: 50%;
     align-self: center;
   }
+  .part {
+    flex-wrap: wrap;
+  }
+  .possibilities {
+    flex-wrap: wrap;
+  }
+  .case_studies_container {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .studies {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+  .case_studies {
+    padding-left: 0px;
+  }
+  .poss_img img {
+    width: 100%;
+  }
+  .center {
+    flex-direction: column;
+    margin-top: 50px;
+  }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 550px) {
+  .gpt3__blog-container_atricle-container {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .container {
+    margin: 0px 40px;
+  }
   .header_container {
     padding: 0 30px;
   }
@@ -302,5 +494,18 @@ h2 {
   .people {
     flex-direction: column;
     align-content: center;
+  }
+  .heading {
+    line-height: 35px;
+    font-size: 150%;
+  }
+  .case_studies .heading {
+    line-height: 35px;
+    font-size: 100%;
+  }
+
+  .parag h1 {
+    font-size: 250%;
+    align-self: center;
   }
 }
